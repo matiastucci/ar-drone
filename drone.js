@@ -8,7 +8,7 @@ Cylon.robot({
   work: function(my) {
 
     my.nav.on('batteryChange', function(data) {
-      console.log('BATTERY CHANGE:');
+      console.log('Battery Change:');
       console.log(data);
     });
 
